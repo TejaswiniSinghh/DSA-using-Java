@@ -1,5 +1,5 @@
 import java.util.*;
-public class Basics
+public class Stack_Basics
 {
     public static void main(String[] args)
     {
