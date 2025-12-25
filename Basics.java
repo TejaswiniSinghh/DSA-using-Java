@@ -11,7 +11,10 @@ public class Basics
         numbers.push(50);
         numbers.push(60);
         numbers.pop();
+        numbers.pop();
         System.out.println(numbers.peek());
+        System.out.println(numbers.peek());
+        
     }
 
 }
