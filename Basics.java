@@ -8,13 +8,10 @@ public class Basics
         numbers.push(100);
         numbers.push(300);
         numbers.push(30);
-        numbers.push(50);
-        numbers.push(60);
-        numbers.pop();
         numbers.pop();
         System.out.println(numbers.peek());
         System.out.println(numbers.peek());
-        
+
     }
 
 }
