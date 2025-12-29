@@ -10,7 +10,9 @@ public class queue_basics
         queue.offer(100);
         System.out.println(queue.isEmpty());
         System.out.println(queue.peek());
+        queue.poll();
         System.out.println(queue.contains(100));
         System.out.println(queue);
+
     }
 }
