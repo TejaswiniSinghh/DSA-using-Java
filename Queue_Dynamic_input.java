@@ -24,6 +24,7 @@ public class Queue_Dynamic_input
             num_got_sandwich=num_got_sandwich -1;
         }
         System.out.println("Students who did not got Sandwich = " + students);
+        System.out.println("You can provide them sandwich");
         sc.close();
     }
 }
