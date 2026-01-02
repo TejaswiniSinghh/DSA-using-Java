@@ -43,6 +43,6 @@ public class DynamicInput_calculator
         System.out.println("Enter second number: ");
         int b= sc.nextInt();
         int addition =add(a, b);
-        System.out.println(addition); 
+        System.out.println("addition =" +addition); 
     }
 }
