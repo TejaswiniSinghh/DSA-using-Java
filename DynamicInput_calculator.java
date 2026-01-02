@@ -43,6 +43,9 @@ public class DynamicInput_calculator
         System.out.println("Enter second number: ");
         int b= sc.nextInt();
         int addition =add(a, b);
-        System.out.println("addition =" +addition); 
+        int Subtraction =sub(a, b);
+        int Product =prod(a, b);
+        int Division =div(a, b);
+        System.out.println("Addition =" +addition +"Substraction = " +Subtraction +"Product = "+Product +"Division = "+Division); 
     }
 }
