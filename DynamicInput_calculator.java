@@ -42,10 +42,11 @@ public class DynamicInput_calculator
         int a= sc.nextInt();
         System.out.println("Enter second number: ");
         int b= sc.nextInt();
-        int addition =add(a, b);
+        /*int addition =add(a, b);
         int Subtraction =sub(a, b);
         int Product =prod(a, b);
-        int Division =div(a, b);
-        System.out.println("Addition =" +addition +"Substraction = " +Subtraction +"Product = "+Product +"Division = "+Division); 
+        int Division =div(a, b);*/
+        System.out.println(add(a, b) +"\n"+ sub(a, b) +"\n"+ div(a, b) +"\n"+ prod(a, b));
+        //System.out.println("Addition =" +addition +" Substraction = " +Subtraction +" Product = "+Product +"Division = "+Division); 
     }
 }
