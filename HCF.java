@@ -3,16 +3,38 @@ public class HCF
 {
     static int cal(int a, int b)
     {
+        int hcf=0;
         ArrayList<Integer> factors_a= new ArrayList<>();
+        ArrayList<Integer> factors_b= new ArrayList<>();
         for(int i=1; i<=a/2; i++)
         {
             if(a%i==0)
             {
                 factors_a.add(i);
-                System.out.println(factors_a);
             }
         }
-        return 1;
+        for(int j=1; j<=b/2; j++)
+        {
+            if(a%j==0)
+            {
+                factors_b.add(j);
+            }
+        }
+        for( int i =0; i<factors_a.size(); i++  )
+        {
+            for( int j =0; j<factors_b.size(); j++  )
+            {
+                if (factors_a.get(i).equals(factors_b.get(j)))
+                {
+                    Integer common= factors_a.get(i);
+                    if (hcf<common)
+                    {
+                        hcf=common;
+                    }
+                }
+            }
+        }
+        return hcf;
 
     }
     public static void main(String[] args)
