@@ -18,6 +18,7 @@ public class HCF
             if(a%j==0)
             {
                 factors_b.add(j);
+                System.out.print(factors_b);
             }
         }
         for( int i =0; i<factors_a.size(); i++  )
