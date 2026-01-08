@@ -37,7 +37,6 @@ public class HCF
             }
         }
         return hcf;
-
     }
     public static void main(String[] args)
     {
@@ -48,6 +47,5 @@ public class HCF
         int b = sc.nextInt();
         System.out.println(cal(a,b));
         sc.close();
-
     }
 }
