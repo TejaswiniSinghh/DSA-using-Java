@@ -5,7 +5,9 @@ public class HCF
     {
         int hcf=0;
         ArrayList<Integer> factors_a= new ArrayList<>();
+        factors_a.add(a);
         ArrayList<Integer> factors_b= new ArrayList<>();
+        factors_b.add(b);
         for(int i=1; i<=a/2; i++)
         {
             if(a%i==0)
@@ -15,10 +17,9 @@ public class HCF
         }
         for(int j=1; j<=b/2; j++)
         {
-            if(a%j==0)
+            if(b%j==0)
             {
                 factors_b.add(j);
-                System.out.print(factors_b);
             }
         }
         for( int i =0; i<factors_a.size(); i++  )
