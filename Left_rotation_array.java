@@ -4,7 +4,7 @@ public class Left_rotation_array
     static int[] rotations(int[] array, int d)
     {
 
-        for(int i=0; i<array.length;i++)
+        for(int i=0; i<array.length; i++)
         {
             if(d>0)
             {
@@ -27,7 +27,8 @@ public class Left_rotation_array
         {
             array[i]=sc.nextInt();
         }
-        System.out.println(rotations(array, d ));
+        int[] result=rotations(array, d );
+        System.out.println(result);
         sc.close();
     }
 }
