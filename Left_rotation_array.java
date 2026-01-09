@@ -4,8 +4,8 @@ public class Left_rotation_array
     static int[] rotations(int[] array, int d)
     {
 
-        int temp=0;
-        for(int i=0; i<d; i++)
+        int temp;
+        for(int i=0; i<=d; i++)
         {
             temp=array[0];
             for(int j=0;j<array.length-1; j++)
