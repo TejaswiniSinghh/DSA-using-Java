@@ -10,7 +10,6 @@ public class Left_rotation_array
             temp=array[0];
             if(d>0)
             {
-                temp=array[0];
                 array[i]=array[i+1];
                 d--;
             }
