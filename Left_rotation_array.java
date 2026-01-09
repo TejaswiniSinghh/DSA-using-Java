@@ -11,7 +11,6 @@ public class Left_rotation_array
             {
                 temp=array[0];
                 array[i]=array[i+1];
-                array[array.length-1]=temp;
                 d--;
             }
             array[array.length-1]=temp;
@@ -32,7 +31,7 @@ public class Left_rotation_array
         int[] result=rotations(array, d );
         for(int x: result)
         {
-            System.out.println( x+" ");
+            System.out.print( x+" ");
         }    
         
         sc.close();
