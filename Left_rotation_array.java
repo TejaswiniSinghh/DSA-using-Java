@@ -1,0 +1,33 @@
+import java.util.*;
+public class Left_rotation_array 
+{
+    static int[] rotations(int[] array, int d)
+    {
+
+        for(int i=0; i<array.length;i++)
+        {
+            if(d>0)
+            {
+                int temp=array[0];
+                array[i]=array[i+1];
+                array[array.length-1]=temp;
+                d--;
+            }
+        }
+        return array;
+
+    }
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int n= sc.nextInt();
+        int d= sc.nextInt();
+        int[] array= new int[n];
+        for(int i=0;i<n;i++)
+        {
+            array[i]=sc.nextInt();
+        }
+        System.out.println(rotations(array, d ));
+        sc.close();
+    }
+}
