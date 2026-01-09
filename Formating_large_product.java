@@ -7,6 +7,7 @@ public class Formating_large_product
         for(int i=1; (a+i)<b; i++)
         {
             p = p*(a+i);
+            System.out.println("      "+p);
         }
         p=p*b;
         System.out.println(p);
