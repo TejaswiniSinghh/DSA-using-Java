@@ -5,10 +5,10 @@ public class Left_rotation_array
     {
 
         int temp=0;
-        for(int i=0; i<array.length; i++)
+        for(int i=0; i<d; i++)
         {
             temp=array[0];
-            if(d>0)
+            for(int j=0;j<array.length; j++)
             {
                 array[i]=array[i+1];
                 d--;
