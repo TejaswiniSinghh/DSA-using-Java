@@ -28,7 +28,11 @@ public class Left_rotation_array
             array[i]=sc.nextInt();
         }
         int[] result=rotations(array, d );
-        System.out.println(result);
+        for(int x: result)
+        {
+            System.out.println( x+" ");
+        }    
+        
         sc.close();
     }
 }
