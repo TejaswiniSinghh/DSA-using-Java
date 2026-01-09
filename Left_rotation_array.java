@@ -11,9 +11,9 @@ public class Left_rotation_array
             for(int j=0;j<array.length-1; j++)
             {
                 array[i]=array[i+1];
-                d--;
             }
             array[array.length-1]=temp;
+            d--;
         }
         return array;
 
