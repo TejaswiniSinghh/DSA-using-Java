@@ -8,7 +8,7 @@ public class Left_rotation_array
         for(int i=0; i<=d; i++)
         {
             temp=array[0];
-            for(int j=0;j<array.length-1; j++)
+            for(int j=0;j<array.length; j++)
             {
                 array[i]=array[i+1];
             }
