@@ -3,7 +3,17 @@ public class Count_Mnitor_RecordLow
 {
     static int count_record(int[] array )
     {
-        return 0;
+        int min= 100000;
+        int change=0;
+        for(int i=0; i<array.length; i++ )
+        {
+            if(min>array[i])
+            {
+                min= array[i];
+                change++;
+            }
+        }
+        return change;
     }
     public static void main(String[] args)
     {
