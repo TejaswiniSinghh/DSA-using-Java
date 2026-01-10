@@ -5,16 +5,12 @@ public class Left_rotation_array
     {
 
         int temp;
+        d=d%array.length;
         for(int i=0; i<d; i++)
         {
-            d=d%array.length;
             temp=array[0];
-            for(int j=0;j<array.length; j++)
+            for(int j=0;j<array.length-1; j++)
             {
-                if(j==4)
-                {
-                    array[j]=array[j];
-                }
                 array[j]=array[j+1];
             }
             array[array.length-1]=temp;
