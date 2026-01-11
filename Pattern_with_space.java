@@ -3,12 +3,13 @@ public class Pattern_with_space
 {
     static void pattern(int n)
     {
-        for(int i=n ; i<0; i--)
+        for(int i=n ; i>0; i--)
         {
-            for(int j = i; j<n ;j--)
+            for( int j=0; j<n; j++)
             {
-                System.out.print("*");
+                System.out.print(" ");
             }
+            System.out.print("*");
             System.out.println();
         }
     }
