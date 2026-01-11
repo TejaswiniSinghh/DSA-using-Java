@@ -7,7 +7,7 @@ public class Print_matrix
         {
             for(int j=0; j<mat[0].length; j++)
             {
-                System.out.print(j);
+                System.out.print(mat[i][j]);
             }
             System.out.println();
         }
@@ -22,7 +22,6 @@ public class Print_matrix
             {
                 mat[i][j]=sc.nextInt();
             }
-            System.out.println();
         }
         printing( mat);
     }
