@@ -12,6 +12,7 @@ public class Pattern_with_space
                     for( int k=1; k<i-1 ; k++)
                     {
                         System.out.print(" ");
+                        j--;
                     }
                 }
                 System.out.print("*");
