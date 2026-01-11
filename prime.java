@@ -16,9 +16,8 @@ import java.util.Scanner;public class prime
                 {
                     break;
                 }
+                System.out.print(i+" ");  
             }
-            System.out.print(i+" ");
-            
         }
     }
     public static void main(String[] args)
