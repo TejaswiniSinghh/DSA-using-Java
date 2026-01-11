@@ -5,7 +5,7 @@ public class Pattern_with_space
     {
         for(int i=n ; i>0; i--)
         {
-            for( int j=0; j<n; j++)
+            for( int j=0; j<i-1; j++)
             {
                 System.out.print(" ");
             }
