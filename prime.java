@@ -9,14 +9,15 @@ import java.util.Scanner;public class prime
         }
         for(int i=2; i<=n; i++)
         {
-            for(int j=2; j<=i;j++)
+            for(int j=2; j<i;j++)
             {
                 int rem= i % j;
-                if( rem!=0  )
+                if( rem==0  )
                 {
-                    System.out.print(i+" ");
+                    break;
                 }
             }
+            System.out.print(i+" ");
             
         }
     }
