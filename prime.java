@@ -5,17 +5,19 @@ import java.util.Scanner;public class prime
         if (n==1)
         {
             System.out.println("nor prime nor composite");
-            for(int i=2; i<=n; i++)
+            
+        }
+        for(int i=2; i<=n; i++)
+        {
+            for(int j=2; j<=i;j++)
             {
-                for(int j=2; j<=i;j++)
+                int rem= i % j;
+                if( rem!=0  )
                 {
-                    int rem=i%j;
-                    if( rem==0 )
-                    {
-                        System.out.print(i+" ");
-                    }
+                    System.out.print(i+" ");
                 }
             }
+            
         }
     }
     public static void main(String[] args)
