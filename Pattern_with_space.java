@@ -10,7 +10,6 @@ public class Pattern_with_space
                 System.out.print(" ");
             }
             System.out.print("*");
-            System.out.println();
         }
     }
     public static void main(String[] args)
