@@ -3,9 +3,9 @@ public class Pattern_with_space
 {
     static void pattern(int n)
     {
-        for(int i=n ; i>0; i--)
+        for(int i=0 ; i<=n; i++)
         {
-            for( int j=i-1; j<0; j--)
+            for( int j=1; j<i-1; j++)
             {
                 System.out.print(" ");
             }
