@@ -3,14 +3,9 @@ public class Trapezium_printing
 {
     static void pattern(int n)
     {
-        char x='.';
-        for(int i=0; i<=n; i++)
+        for(int i=0; i<n; i++)
         {
-            if(i==(2*n+1)/2)
-            {
-                System.out.println(x*i);
-            }
-            System.out.println(x*i);
+            for(int j=0; j<)
         }
     }
     public static void main(String[] args)
