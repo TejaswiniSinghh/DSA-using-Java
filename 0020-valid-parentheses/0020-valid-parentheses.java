@@ -4,9 +4,8 @@ class Solution
     {
     
         Stack<Character> check= new Stack<>();
-        for(int i=0; i<s.length(); i++)
+        for (char ch : s.toCharArray())
         {
-            char ch= s.charAt(i);
             if(ch == '(' || ch== '{' || ch== '[')
             {
                 check.push(ch);
