@@ -4,10 +4,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0004-median-of-two-sorted-arrays) |
 | [0035-search-insert-position](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0035-search-insert-position) |
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0004-median-of-two-sorted-arrays) |
 | [0035-search-insert-position](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0035-search-insert-position) |
 ## String
 |  |
@@ -30,4 +32,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0070-climbing-stairs) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
