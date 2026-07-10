@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0070-climbing-stairs) |
+| [0342-power-of-four](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0342-power-of-four) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -36,4 +37,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0004-median-of-two-sorted-arrays) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0342-power-of-four](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0342-power-of-four) |
+## Recursion
+|  |
+| ------- |
+| [0342-power-of-four](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0342-power-of-four) |
 <!---LeetCode Topics End-->
