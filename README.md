@@ -16,11 +16,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0032-longest-valid-parentheses) |
 | [0058-length-of-last-word](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0058-length-of-last-word) |
 ## Stack
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0032-longest-valid-parentheses) |
 ## Math
 |  |
 | ------- |
@@ -31,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0005-longest-palindromic-substring) |
+| [0032-longest-valid-parentheses](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0032-longest-valid-parentheses) |
 | [0070-climbing-stairs](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0070-climbing-stairs) |
 ## Memoization
 |  |
