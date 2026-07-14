@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0004-median-of-two-sorted-arrays) |
 | [0035-search-insert-position](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0035-search-insert-position) |
 ## Binary Search
@@ -57,4 +58,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0005-longest-palindromic-substring) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
