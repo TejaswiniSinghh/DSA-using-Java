@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0004-median-of-two-sorted-arrays) |
 | [0035-search-insert-position](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0035-search-insert-position) |
+| [0066-plus-one](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0066-plus-one) |
 ## Binary Search
 |  |
 | ------- |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/TejaswiniSinghh/DSA-using-Java/tree/master/0342-power-of-four) |
