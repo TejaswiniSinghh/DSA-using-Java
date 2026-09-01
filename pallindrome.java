@@ -8,12 +8,12 @@ public class pallindrome
         int temp= num;
         while(temp>0)
         {
-            rem= num%10;
+            rem= temp%10;
             temp=temp/10;
-            rev= (rev*10)+ rem;
+            rev = (rev*10)+ rem;
 
         }
-        if(num== rev)
+        if(num == rev)
         {
             return true;
         }
