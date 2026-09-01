@@ -6,7 +6,7 @@ public class MAX_in_array
         int maximum=0;
         for(int i=0; i<arr.length; i++)
         {
-            if(maximum> arr[i])  maximum=arr[i];
+            if(maximum< arr[i])  maximum=arr[i];
         }
         return maximum;
     }
@@ -19,6 +19,6 @@ public class MAX_in_array
         {
              arr[i]= sc.nextInt();
         }
-        System.out.println(" Max is: "+ max(arr));
+        System.out.println("Max is: "+ max(arr));
     }
 }
